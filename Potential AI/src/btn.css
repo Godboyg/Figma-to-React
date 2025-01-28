@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.button{
+    height: 25px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.103);
+    border: 1px solid black;
+    font-size: 17px;
+}
+
+.button:hover{
+    cursor: pointer;
+}
+
+@media (max-width: 600px) {
+    .button{
+        width: 15vw;
+        font-size: 2.5vw;
+    }
+}
